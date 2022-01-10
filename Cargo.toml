@@ -1,0 +1,13 @@
+[package]
+name = "dart-kernel"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["rlib"]
+
+[dependencies]
+declio = { git = "https://github.com/jac3km4/declio", branch = "endian-refactor" }
+modular-bitfield = "0.11"
+wtf8 = { git = "https://github.com/jac3km4/rust-wtf8", branch = "as-bytes" }
+hex-magic = "0.0.2"
